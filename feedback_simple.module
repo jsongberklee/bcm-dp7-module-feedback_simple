@@ -92,7 +92,7 @@ function feedback_simple_preprocess_feedback_simple(&$variables) {
 function feedback_simple_page_build(&$page) {
 
   // place "feedback_simple" block in the footer section
-  $page['footer']['feedback_simple'] = array(
+  $page['stripes']['feedback_simple'] = array(
     '#type' => 'markup',
     '#markup' => theme('feedback_simple'),
     '#attached' => array(

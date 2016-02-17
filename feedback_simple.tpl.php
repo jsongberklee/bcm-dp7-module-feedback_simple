@@ -20,25 +20,6 @@
 ?>
 <?php if ($enabled): ?>
 <div id='feedback_simple'>
-<!--
-  <a
-    href='<?php print $link ?>'
-    target='<?php print $target ?>'
-    class='feedback_simple-<?php print $align ?> <?php print implode(' ', $class) ?>'
-    style='top: <?php print $top ?>; height: 187px; width: 48px;'>
-      <img
-        alt='<?php print $alt ?>'
-        src='/sites/all/modules/feedback_simple/asklibrary-btn-blue.png'
-      />
-  </a>
--->
-
-  <a
-    href='<?php print $link ?>'
-    target='<?php print $target ?>'
-    class='side-tab-feedback_simple'
-    style='top: 32%;'>
-	    ASK LIBRARIAN
-  </a>
+  <a href='<?php print $link ?>' target='<?php print $target ?>' class='side-tab-feedback_simple' style='top: 32%;'>ASK LIBRARIAN</a>
 </div>
 <?php endif;
