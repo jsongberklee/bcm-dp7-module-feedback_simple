@@ -20,6 +20,6 @@
 ?>
 <?php if ($enabled): ?>
 <div id='feedback_simple'>
-  <a href='<?php print $link ?>' target='<?php print $target ?>' class='side-tab-feedback_simple' style='top: 32%;'>ASK LIBRARIAN</a>
+  <a href='<?php print $link ?>' target='<?php print $target ?>' class='side-tab-feedback_simple' style='top: 32%;'>ASK LIBRARIAN<i aria-hidden="true" class="fa fa-commenting" style="margin-right:0;"><span style="display:none;">&nbsp;</span></i></a>
 </div>
 <?php endif;
